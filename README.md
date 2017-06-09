@@ -1,8 +1,8 @@
 # Conference SW
 these libraries required
-* ffmpeg    encode and decode audio/video frame
-* opencv    sample,transform and display video frame
-* portaudio sample,and display video frame
+* ffmpeg    >encode and decode audio/video frame
+* opencv    >sample,transform and display video frame
+* portaudio >sample,and display video frame
 ---
 __multiuser support__ 
 
