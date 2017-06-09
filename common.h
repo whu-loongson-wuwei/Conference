@@ -69,6 +69,6 @@ class PktQueue
         return &data;
     }
 };
-typedef std::map<uchar,uint> UserSeq;
-typedef std::map<uchar,std::string> UserName;
+typedef std::map<uchar,uint> UserSeq;// receive port
+typedef std::map<uchar,std::string> UserName;// usr nameStr
 #endif
