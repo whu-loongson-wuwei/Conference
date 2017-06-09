@@ -4,7 +4,7 @@ these libraries required
 encode and decode audio/video frame
 * opencv    
 sample,transform and display video frame
-* portaudio 
+* portaudio   
 sample,and display video frame
 ---
 __multiuser support__ 
