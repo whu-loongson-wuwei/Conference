@@ -60,10 +60,7 @@ class PktQueue
         delete[] data.data;
         delete[] data.name;
         Packet *temp = q.front();
-        data.size = temp->size;
-        data.data = temp->data;
-        data.name = temp->name;
-        data.type = temp->type;
+        data = *temp;
         delete temp;
         q.pop();
         return &data;
