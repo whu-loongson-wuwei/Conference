@@ -53,8 +53,8 @@ class Receiver
         usr.sin_port = htons(PORT);
         Header *pkt_id = new Header;
         pkt_id->length = 0;
-        pkt_id->id = 2;
-        memcpy(pkt_id->name, "loongson", 9);
+        pkt_id->id = 1;
+        memcpy(pkt_id->name, "wuwei", 6);
         sendto(u, pkt_id, 20, 0, (struct sockaddr *)&usr, addr_len);
         usr.sin_addr.s_addr =  inet_addr("127.0.0.1");
         UserName un;

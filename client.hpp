@@ -43,8 +43,8 @@ class Sender
 
         Header *pkt_id = new Header;
         pkt_id->length = 0;
-        pkt_id->id = 2;
-        memcpy(pkt_id->name, "loongson", 9);
+        pkt_id->id = 1;
+        memcpy(pkt_id->name, "wuwei", 6);
 
         int beat = 0;
         while (1)
