@@ -61,7 +61,7 @@ class Sender
                 Header *h = (Header *)buf;
                 h->length = pkt->size;
                 h->seq = seq++;
-                h->id = 2;
+                h->id = 1;
                 cout << "[send]" << h->seq << "----->" << h->length << endl;
                 if (pkt->size <= PKT_SIZE)
                 {
