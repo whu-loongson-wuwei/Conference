@@ -11,8 +11,8 @@ int main()
     VideoCapture capture(0); //从摄像头读入图像
     Mat Frame;
     capture >> Frame;
-    int h =  Frame.rows/2;
-    int w =  Frame.cols/2;
+    int h =  240;
+    int w =  320;
     capture.set(CAP_PROP_FRAME_WIDTH , w);
     capture.set(CAP_PROP_FRAME_HEIGHT , h);
     PktQueue queue;
